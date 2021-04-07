@@ -1,7 +1,8 @@
-name: Sonar Test
+name: Build
 on:
   push:
-    branches: [ master, develop ]
+    branches:
+      - master
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
